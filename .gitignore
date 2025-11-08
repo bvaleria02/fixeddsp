@@ -1,0 +1,6 @@
+fixedpoint/*
+fixedlinmath/*
+doxs/*
+libtesting/*
+*.o
+main
