@@ -6,8 +6,8 @@
 
 int main(){
 	fixed32_t data[2048 * 1];
-	fdspsignal_t signal;
-	fixedDSPCreateSignal(&signal, 2048, 1, FIXED32_T, data, FDSP_CHANNEL_SINGLE, FDSP_SIGNAL_TIMESERIES, 44100, 0);
+	fdspMonoSignal_t signal;
+	fixedDSPCreateMonoSignal(&signal, 2048, FIXED32_T, data, 44100, 0);
 
 	return 0;
 }
